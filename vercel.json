@@ -5,8 +5,5 @@
       "src": "api/*.js",
       "use": "@vercel/node"
     }
-  ],
-  "engines": {
-    "node": "18.x"
-  }
+  ]
 }
