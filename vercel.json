@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "functions": {
+    "api/*.js": {
+      "memory": 1024,
+      "maxDuration": 60
+    }
+  },
+  "builds": [
+    {
+      "src": "api/*.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "engines": {
+    "node": "18.x"
+  }
+}
